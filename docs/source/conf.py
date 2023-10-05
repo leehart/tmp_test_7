@@ -35,7 +35,7 @@ html_theme_options = {
     "switcher": {
         "check_switcher": True,
         "version_match": version,
-        "json_url": f"https://leehart.github.io/tmp_test_7/v0.0.0/_static/switcher.json"
+        "json_url": f"https://leehart.github.io/tmp_test_7/latest/_static/switcher.json"
     },
     "navbar_center": ["version-switcher", "navbar-nav"],
     "icon_links": [
