@@ -14,8 +14,8 @@ import malariagen_data
 project = 'malariagen_data API'
 copyright = '2023, MalariaGEN'
 author = 'MalariaGEN'
-release = malariagen_data.__version__
-version = 'v' + str(malariagen_data.__version__)
+version = os.environ.get("VERSION_TAG", 'v' + str(malariagen_data.__version__))
+release = version[1:]
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
