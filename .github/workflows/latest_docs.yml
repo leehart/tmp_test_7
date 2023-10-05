@@ -30,9 +30,7 @@ jobs:
         run: poetry run pip install -r docs/requirements.txt
 
       - name: Build HTML 🏗️
-        run: |
-          cd docs/
-          poetry run sphinx-build -b html source build/html
+        run: poetry run sphinx-build -b html docs/source docs/build/html
 
       - name: Deploy HTML to GitHub Pages 🚀
         uses: peaceiris/actions-gh-pages@v3.9.3
