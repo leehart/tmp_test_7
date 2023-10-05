@@ -1,6 +1,0 @@
-﻿malariagen\_data.amin1.Amin1.contigs
-====================================
-
-.. currentmodule:: malariagen_data.amin1
-
-.. autoproperty:: Amin1.contigs
